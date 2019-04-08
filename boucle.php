@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>starters php</title>
+</head>
+<body>
+<a href="/starterphp/">retour</a>
+<br />
+<hr />
+
 <?php
 
 /**
@@ -97,3 +107,6 @@ for ($i=200; $i >= 0 ; $i-=12) {
 }
 
 
+?>
+</body>
+</html>

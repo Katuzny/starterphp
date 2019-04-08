@@ -1,3 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
+<a href="/starterphp/">retour</a>
+<br />
+<hr />
+
 <?php
  //Exercice 1 Créer un tableau mois
 $mois = [ 	"janvier",
@@ -61,5 +73,6 @@ $mois = [ 	"janvier",
 	foreach ($departements as $numero => $departement) {
 		echo "le numéro ".$numero." correspond à ".$departement."<br />";
 	}
-
-
+?>
+</body>
+</html>

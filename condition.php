@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>starters php</title>
+</head>
+<body>
+	<a href="/starterphp/">retour</a>
+<br />
+<hr />
+
 <?php
 
 /**
@@ -183,3 +193,6 @@ echo '<br />';
 			echo 'c\'est pas bon !!!';
 		}
 
+?>
+</body>
+</html>
