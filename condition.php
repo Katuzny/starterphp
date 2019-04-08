@@ -114,8 +114,72 @@ switch ($magnitude) {
 }
 echo '<br />';
 
+/**
+*##Exercice 5
+*Traduire ce code avec des if et des else :
+*
+*
+*   <?php
+*    echo ($maVariable != 'Homme') ? 'C\'est une développeuse !!!' : 'C\'est un développeur !!!';
+*   ?>
+*/
+
+	if ($maVariable != 'Homme'){
+		echo 'C\'est une développeuse !!!';
+	}else{
+		echo 'C\'est un développeur !!!';
+	}
+
+
+/**
+*	##Exercice 6
+*	Traduire ce code avec des if et des else :
+*
+*
+*	<?php
+*		echo ($monAge >= 18) ? 'Tu es majeur' : 'Tu n\'es pas majeur';
+*   ?>
+*/
+
+		if ($monAge >= 18){
+			echo 'Tu es majeur';
+		}else{
+			echo 'Tu n\'es pas majeur';
+		}
+
+
+/**
+*	##Exercice 7
+*	Traduire ce code avec des if et des else :
+*
+*
+*   <?php
+*     echo ($maVariable == false) ? 'c\'est pas bon !!!' : 'c\'est ok !!';
+*   ?>
+*/
+
+		if ($maVariable == false){
+			echo 'c\'est pas bon !!!';
+		}else{
+			echo 'c\'est ok !!';
+		}
 
 
 
+/**
+*##Exercice 8
+*Traduire ce code avec des if et des else :
+*
+*
+*   <?php
+*     echo ($maVariable) ? 'c'est ok !!' : 'c'est pas bon !!!';
+*   ?>
+*/
 
+
+		if ($maVariable){
+			echo 'c\'est ok !!';
+		}else{
+			echo 'c\'est pas bon !!!';
+		}
 
